@@ -9,6 +9,4 @@ RUN apt-get update && \
 
 WORKDIR /usr/src
 
-RUN mkdir .sbt
-
 CMD while true; do sleep 3600; done
